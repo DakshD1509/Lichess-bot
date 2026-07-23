@@ -13,6 +13,10 @@
 name: lichess-bot
 
 on:
+  push:
+    branches:
+      - main
+      - master
   workflow_dispatch: {}          # manual start / restart
   schedule:
     - cron: "0 */5 * * *"        # every 5h; with the 5h50m timeout this hands off continuously
