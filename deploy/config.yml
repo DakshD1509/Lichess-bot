@@ -16,21 +16,21 @@ engine:
     enabled: true
     book:
       standard:
-        - book/komodo.bin
-        - book/lichess_DangerousRide_2026-07-23.bin
-        - book/lichess_DemonicFish_2026-07-23.bin
-        - book/lichess_IPK_Mahaweli_2026-07-23.bin
-        - book/lichess_JackedFish_2026-07-23.bin
-        - book/lichess_LeelaMultiPoss_2026-07-23.bin
-        - book/lichess_MEGA-NOOB-BOT_2026-07-23.bin
-        - book/lichess_Magic11bot_Pro_2026-07-23.bin
-        - book/lichess_QalatBotEngine_2026-07-23.bin
-        - book/lichess_ToromBot_2026-07-23.bin
-        - book/lichess_caissa-ai_2026-07-23.bin
-        - book/lichess_is_BOSS_2026-07-23.bin
-        - book/IPK_clean.bin
-        - book/ToromBot_clean.bin
-        - book/OPTIMUS2502.bin
+        - /app/engine/book/komodo.bin
+        - /app/engine/book/lichess_DangerousRide_2026-07-23.bin
+        - /app/engine/book/lichess_DemonicFish_2026-07-23.bin
+        - /app/engine/book/lichess_IPK_Mahaweli_2026-07-23.bin
+        - /app/engine/book/lichess_JackedFish_2026-07-23.bin
+        - /app/engine/book/lichess_LeelaMultiPoss_2026-07-23.bin
+        - /app/engine/book/lichess_MEGA-NOOB-BOT_2026-07-23.bin
+        - /app/engine/book/lichess_Magic11bot_Pro_2026-07-23.bin
+        - /app/engine/book/lichess_QalatBotEngine_2026-07-23.bin
+        - /app/engine/book/lichess_ToromBot_2026-07-23.bin
+        - /app/engine/book/lichess_caissa-ai_2026-07-23.bin
+        - /app/engine/book/lichess_is_BOSS_2026-07-23.bin
+        - /app/engine/book/IPK_clean.bin
+        - /app/engine/book/ToromBot_clean.bin
+        - /app/engine/book/OPTIMUS2502.bin
     min_weight: 1
     selection: "weighted_random"
     max_depth: 12
